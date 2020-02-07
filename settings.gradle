@@ -1,0 +1,3 @@
+rootProject.name = 'coinflip'
+
+include 'coinflip-common', 'coinflip-spigot', 'coinflip-sponge'

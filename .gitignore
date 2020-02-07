@@ -1,0 +1,7 @@
+.idea/**
+.gradle/**
+coinflip-common/**
+coinflip-spigot/build/**
+coinflip-spigot/out/**
+coinflip-sponge/build/**
+coinflip-sponge/out/**
