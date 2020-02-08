@@ -8,8 +8,12 @@ repositories {
         url = 'https://oss.sonatype.org/content/groups/public/'
     }
     maven {
+        name = 'Vault'
+        url = 'http://nexus.hc.to/content/repositories/pub_releases'
+    }
+    maven {
         name = 'PlaceholderAPI'
-        url "http://repo.extendedclip.com/content/repositories/placeholderapi"
+        url = 'http://repo.extendedclip.com/content/repositories/placeholderapi'
     }
 }
 

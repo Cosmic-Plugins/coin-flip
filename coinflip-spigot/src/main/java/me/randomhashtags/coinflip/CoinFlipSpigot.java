@@ -9,6 +9,7 @@ public final class CoinFlipSpigot extends JavaPlugin {
     @Override
     public void onEnable() {
         getPlugin = this;
+        saveSettings();
         enable();
     }
 
@@ -17,8 +18,12 @@ public final class CoinFlipSpigot extends JavaPlugin {
         disable();
     }
 
-    public void enable() {
+    private void saveSettings() {
         saveDefaultConfig();
+    }
+
+    public void enable() {
+        saveSettings();
         CoinFlipAPI.INSTANCE.load();
     }
     public void disable() {

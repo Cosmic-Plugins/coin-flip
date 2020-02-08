@@ -4,3 +4,5 @@ main: me.randomhashtags.coinflip.CoinFlipSpigot
 api-version: 1.13
 authors: [RandomHashTags]
 description: Pure luck 50/50 betting game where you put your money where your mouth is, and winner takes all!
+depend:
+  - Vault
