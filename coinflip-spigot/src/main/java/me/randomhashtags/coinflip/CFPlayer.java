@@ -1,4 +1,4 @@
-package me.randomhashtags.coinflip.util;
+package me.randomhashtags.coinflip;
 
 import me.randomhashtags.coinflip.addon.CoinFlipStats;
 import me.randomhashtags.coinflip.universal.UVersionable;
@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.UUID;
 
 public class CFPlayer implements UVersionable {
-    private static final String folder = COIN_FLIP.getDataFolder() + File.separator + "_Data" + File.separator + "players";
+    private static final String folder = COIN_FLIP.getDataFolder() + File.separator + "playerData";
     public static final HashMap<UUID, CFPlayer> players = new HashMap<>();
 
     private boolean isLoaded;

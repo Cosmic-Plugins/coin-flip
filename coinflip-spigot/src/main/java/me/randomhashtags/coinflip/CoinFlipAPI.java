@@ -5,7 +5,6 @@ import me.randomhashtags.coinflip.addon.CoinFlipMatch;
 import me.randomhashtags.coinflip.addon.CoinFlipOption;
 import me.randomhashtags.coinflip.addon.CoinFlipStats;
 import me.randomhashtags.coinflip.universal.UVersionable;
-import me.randomhashtags.coinflip.util.CFPlayer;
 import me.randomhashtags.coinflip.universal.UInventory;
 import me.randomhashtags.coinflip.universal.UMaterial;
 import org.bukkit.Bukkit;
